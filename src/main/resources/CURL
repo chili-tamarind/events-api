@@ -1,0 +1,8 @@
+//BONUS
+Try consuming the API from the command-line using the Bash curl program or the PowerShell Invoke-RestMethod cmdlet.
+
+// VIEW
+curl http://localhost:8080/events
+
+// ADD
+curl -H "Content-Type: application/json" -X POST -d '{"name": "Linux Fundamentals", "description": "An event for Linux enthusiasts!"}' http://localhost:8080/events/
